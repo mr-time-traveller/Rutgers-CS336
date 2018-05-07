@@ -1,0 +1,26 @@
+#################################OPTION 1---SSH ##################################
+ssh -i "db-key-pair.pem" dbgroup@ec2-18-222-58-30.us-east-2.compute.amazonaws.com
+
+
+It will ask for a password -> secret
+##################################################################################
+
+#################################OPTION 2--X2GO--#################################
+
+
+If you are going to use x2go. So you get desktop view
+
+HOST-> ec2-18-222-58-30.us-east-2.compute.amazonaws.com
+LOGIN-> dbgroup
+PASSWORD-> secret
+PORT-> 22
+RSA/DSA key-> select the db-key-pair.pem file from your directory
+SESSION TYPE->XFCE works but u can gnome, mate, lxde also. 
+
+##################################################################################
+
+
+So basically run the code above in terminal after you cd into the path that has the key that I will upload with this text file..
+
+If it gives a security error then paste this -> chmod 400 db-key-pair.pem
+Then re paste the first line.
