@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name = "viewport" content = "width=device-width, initial-scale=1">
+<link rel = "stylesheet"
+href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+div.topbar {
+	width: 100%;
+    background-color: #555;
+    overflow: auto;
+}
+
+div.topbar a {
+	float: right;
+    width: 20%;
+    text-align: center;
+    padding: 12px 0;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 36px;
+}
+
+.topbar-right{
+	float:left;
+}
+
+div.topbar a:hover{
+	background-color: #000;
+}
+
+div.active{
+	background-color: #4CAF50 !important;
+}
+
+div.topbar a.logo {
+   float: left;
+  color: White;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 40px; 
+  line-height: 40px;
+  border-radius: 4px;
+}
+
+
+form input{type=text} {
+	padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+}
+
+p{
+	font-size: 25px;
+	margin-top: 50px;
+    
+}
+
+form button {
+	float: middle;
+    width: 30%;
+    padding: 20px;
+    background: #63625d;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+  	border-left: none;
+    cursor: pointer;
+    margin-top: 25px;
+    margin-left: 50px;
+    margin-right: 25px;
+}
+
+form button:hover{
+	background-color: #000;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class = "topbar">
+	<a class="active" href="userinfo.jsp"><i class="fa fa-user"></i></a>
+    <a href="#"><i class="fa fa-heart"></i></a>
+    <a href="home.html"><i class="fa fa-home"></i></a>
+    
+</div>
+
+<center><p>What are you searching for?</p></center>
+
+<center>
+<form class = "example" action = "" style = "max - width:900px">
+	<button type = "button" onclick="">Restuarants</button>
+	<button type = "button" onclick="">Car Rentals</button>
+</form>
+
+<form class = "example" action = "" style = "max - width:900px">
+	<button type = "button" onclick="">Hotels</button>
+</form>
+
+</body>
+</html>
