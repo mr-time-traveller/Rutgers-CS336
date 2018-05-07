@@ -1,0 +1,87 @@
+
+<meta charset="UTF-8">
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Login</title>
+<style>
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.bg {
+    /* The image used */
+    background-image: url("background.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+	
+div	{
+	background: rgba(134, 134, 134, 0.5);
+	border: 1px solid black;
+    margin-top: 100px;
+    margin-right: 150px;
+    margin-left: 150px;
+    }
+    
+h1{background-color: MidnightBlue;
+	color: white;
+	font-size: 36px;
+	height: 50px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+	}
+	
+form{
+	color: white;
+	margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 0px;
+    margin-left: 0px;
+	}
+p{
+	color:white;
+}
+
+
+</style>
+</head>
+
+<body class = "bg">
+<div>
+<h1><center>Login</center></h1>
+
+<form action="checkuser.jsp" method="post" id="loginform">
+<center>Username <input type = "text" name = "user"></center>
+<br>
+<center>Password <input type = "password" name = "password"></center>
+</form>
+
+<p>
+
+<center><button type = "submit" form = "loginform" value = "submit">Login</button></center>
+</p>
+
+
+<p>
+<font color="white">
+<center>Don't have an account? <a href=registrationpage.html> Create an account</a></center>
+</font>
+</p>
+
+
+</div>
+</body>
+</html>
+

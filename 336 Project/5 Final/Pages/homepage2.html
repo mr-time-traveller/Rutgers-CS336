@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<style>
+div.topbar {
+    width: 100%;
+    background-color: #555;
+    overflow: auto;
+}
+
+div.topbar a {
+    float: right;
+    width: 20%;
+    text-align: center;
+    padding: 12px 0;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 36px;
+}
+.topbar-right{
+	float:left;
+}
+
+div.topbar a:hover {
+    background-color: #000;
+}
+
+div.active {
+    background-color: #4CAF50 !important;
+}
+div.topbar a.logo {
+   float: left;
+  color: White;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 40px; 
+  line-height: 40px;
+  border-radius: 4px;
+}
+
+
+
+ *{
+    box-sizing: border-box;
+}
+form input[type=text] {   
+
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+}
+
+form button {
+    float: middle;
+    width: 40%;
+    padding: 10px;
+    background: #63625d;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+}
+
+</style>
+</head>
+<body>
+
+
+
+
+
+<div class="topbar">
+
+  <a class="active" href="userinfo.jsp"><i class="fa fa-user"></i></a> 
+  <a href="#"><i class="fa fa-heart"></i></a> 
+  <a href="home.html"><i class="fa fa-home"></i></a>
+ <div class ="topbar-right">
+ 
+ <a href="#default" class="logo">Welcome</a>
+  </div>
+</div>
+
+
+<center>
+<form class="example" action="" style="margin:100px;max-width:900px">
+  <button type="button" onclick="">Search Locations!</button>
+</form>
+
+</body>
+</html>
