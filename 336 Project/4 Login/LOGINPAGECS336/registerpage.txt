@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+
+<h1>New User? Register Below</h1>
+<p></p>
+
+<div>
+
+<p>Enter Desired Credentials:</p>
+<form action= "createuser.jsp" method= "post" id="registerform">
+Username: <input type="text" name="user">
+<br>
+Password: <input type="password" name="password"> 
+<br>
+First Name: <input type="text" name="firstname"> 
+<br>
+Address: <input type="text" name="address"> 
+<br>
+E-mail: <input type="text" name="email"> 
+</form>
+<p><button type="submit" form="registerform" value="submit">Complete Registration</button></p>
+
+</div>
+
+</body>
+</html>
